@@ -371,3 +371,65 @@ float: left;
 width: 100%;
 border: solid black;
 }
+.table , th , td {
+border: 1px solid black;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+label{
+	color:red;
+}
+.gender{
+	color:green;
+	background:#ddd;
+	border-radius:5px;
+}
+
+input[type="number"],input[type="email"],input[type="password"]{
+    width: 300px;
+    /* height: 30px; */
+    padding: 10px 10px;
+    color: green;
+    background: #ddd;
+    border: 1px solid  #828282;
+    border-radius: 5px;
+}
+
+.text{
+	width: 300px;
+    /* height: 30px; */
+    padding: 10px 10px;
+    color: green;
+    background: #ddd;
+    border: 1px solid  #828282;
+    border-radius: 5px;
+}
+
+
+select{
+	width:300px;
+}
+
+option{
+	color:blue;
+}
+.india{
+	background:black;
+	color:white;
+}
+
+input[type="submit"],input[type="reset"] {
+    background: red;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin-right: 10px;
+}
